@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*hilton navbar section start*/
+.hilton_navbar{
+    margin-left: 70px;
+}
+.icon_img{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon_img :hover{
+    color: #000;
+}
+.custom_list{
+    margin-left: 30%;
+}
+.active_link{
+    color: #000;
+    text-transform:capitalize;
+    font-weight: 700;
+    position: relative;
+}
+.active_link:hover{
+    color: #000;
+}
+
+.active_link::after {
+    position: absolute;
+    top: 3px;
+    width: 12%;
+    height: 6px;
+    background: #ea0be5;
+    content: "";
+    left: 42%;
+    border-radius: 90%;
+}
+.hilton_link{
+    color: #000;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    display: block;
+}
+.hilton_link:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: rgba(255, 255, 255, 0.2);
+	content: '';
+	-webkit-transition: top 0.3s;
+	-moz-transition: top 0.3s;
+	transition: top 0.3s;
+}
+
+.hilton_link:hover::before {
+    color: #ea0be5;
+    border: 5px solid;
+    border-radius: 97%;
+    width: 10px;
+    height: -14px;
+    left: 30px;
+}
+.hilton_dropdown{
+    margin-left: 10%;
+}
+.hilton_drop{
+    color: #000;
+    font-weight: bold;
+}
+
+/*hilton navbar section end*/
+
+/*hilton image and text section start*/
+        #heading_text{
+            text-decoration: none;
+        }
+        .postar_img{
+            padding: 75px 0px 0px;
+        }
+        .postar_img img{
+            width: 508px;
+        }
+        .porfile_all{
+            padding: 75px 20px 0px;
+        }
+        .porfile_text{
+            padding-bottom: 50px;
+        }
+        .porfile_text h1{
+            margin-bottom: 48px;
+            font-size:50px;
+            font-weight: 700;
+            line-height: 1;
+            color: var(--heading-font-color);
+            font-family: cursive;
+        }
+        .porfile_text p{
+            font-size: 17px;
+        }
+        .hilton_dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .take_hover{
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+          }
+          
+          .hilton_dropdown:hover .take_hover {
+            display: block;
+          }
+/*hilton image and text section end*/
+
+/*hilton porfile_email section start*/
+.form-control {
+   
+    width: 100%;
+    height: calc(2.5em + .75rem + 4px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #cbcbcb;
+   
+    border:none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.btn-primary {
+    color: #0e0d0d;
+    background-color: #ffb700;
+    border-color: #111212;
+    position: absolute;
+    top: 417px;
+    left: 74%;
+    font-weight: 700;
+    padding: 13px;
+}
+/*hilton porfile_email section end*/
+
+/*latest_works section start*/
+        #latest_work{
+            text-decoration: none;
+            padding-bottom: 50px;
+        }
+        .heading_work{
+            text-align: center;
+            padding: 50px 0px 0px;
+        }
+        .heading_work h1{
+            font-size: 35px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        .heading_work p{
+            font-size: 20px;
+        }
+        
+          .gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          .gallery img {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            min-height: 350px;
+            border-radius: 8px;
+            user-select: none;
+            transform: translate(0);
+            overflow: hidden;
+            background-color: var(--background-alt-color);
+        }
+          
+          
+          .desc {
+            padding: 15px;
+            text-align: center;
+          }
+          .desc h4:hover {
+            background-color:red;
+            height: 15px;
+          }
+          .see_all{
+            text-align: center;
+            padding-top: 25px;
+          }
+          .see_all a {
+            text-decoration: none;
+            background-color: #FFD147;
+            border-radius: 50px;
+            padding: 14px 45px 10px 37px;
+            /* text-transform: capitalize; */
+            color: black;
+            font-weight: 700;
+        }
+        .see_all a:hover{
+            background-color: blueviolet;
+            color: #000;
+        }
+/*latest_works section end*/
+
+/*Client_say section start*/
+            #Client_say{
+                background-color:#F2F1EC;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .what_say{
+                text-align: center;
+                padding-bottom: 25px;
+            }
+            .what_say h1{
+                font-weight: 700;
+            }
+            .client_back {
+                background-color: #FFFFFF;
+                width:250px;
+                text-align: center;
+                margin: 10px;
+                padding: 20px;
+            }
+            .client_back h6{
+                color: #cbcbcb;
+            }
+            .slick-slide img {
+                display: block;
+                margin-left: 22%;
+            }
+/*Client_say section end*/
+
+/*recent_post section start*/
+            #recent_post{
+                text-decoration: none;
+                padding-bottom: 50px;
+            }
+            .recent_head{
+                text-align: center;
+            }
+            .recent_head h1{
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 800;
+            }
+            .images_show{
+                text-decoration: none;
+                padding: 50px 0px 0px;
+            }
+            .images_show a img{
+                width: 95%;
+                border-radius: 20px;
+                transition: 1s;
+                box-shadow: 1px 1px 1px;
+            }
+            .post_link{
+                padding: 15px 0px 10px;
+            }
+            .post_link a {
+                color: #000;
+                margin-left: 4px;
+                background-color: chartreuse;
+                padding: 5px 5px 5px 7px;
+                border-radius: 20px;
+                text-transform: uppercase;
+                font-size: small;
+                font-weight: 600;
+            }
+            .text_links{
+                text-align: left;
+            }
+            .text_links a h2{
+                font-size: 28px;
+                font-weight: 700;
+                color: #000;
+                padding-bottom: 10px;
+                text-decoration: none;
+            }
+            .text_links a h4 {
+                font-size: 17px;
+                font-weight: 700;
+                color: black;
+                padding-bottom: 15px;
+            }
+            .post_link a:hover{
+                    background-color: #ffb700;
+                    color: #000;
+                    text-decoration: none;
+            }
+            .text_links a h2:hover{
+                background-color: #FFD147;
+                color: #000;
+                text-decoration: none;
+                height:5%;
+                transition: 2s;
+            }
+            .text_links a h4:hover{
+                text-decoration:none;
+                color: #000;
+            }
+/*recent_post section end*/
+
+/*monica_gallery start*/
+            .img-fluid{
+                max-width:100%;
+                height: auto;
+            }
+
+ 
+/*monica_gallery end*/
+
+/*monica footer section start*/
+#main_footer {
+    background-color: #777;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 20px;
+}
+            .img_footer{
+                text-decoration: none;
+                padding: 25px 0px 0px;
+            }
+            .img_footer img {
+                width: 100%;
+                border-radius: 40px;
+            }
+            .name_text{
+                padding: 25px 0px 0px;
+            }
+            .name_text h1{
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+            .social_contact{
+                text-align:left;
+            }
+            .detalis_text p{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.5;
+            }
+            .social_contact{             
+                color: #F2F1EC;
+                margin-left: 10px;
+                padding: 15px;
+            }
+            .so_contact{
+                background-color: #FFD147;
+                color: #000;
+                padding: 10px;
+                margin-left: 15px;
+            }
+            .so_contact:hover{
+                background-color: blueviolet;
+                margin-bottom:10px;
+            }
+            .navigation_monica{
+                text-decoration: none;
+                padding: 25px 0px 0px;
+            }
+            .navigation_monica a {
+                text-decoration: none;
+                display: block;
+                color: yellow;
+                text-align: right;
+                margin: 10px -42px 15px;
+            }
+            .navigation_monica a:hover{
+                color: #000;
+            }
+/*monica footer section end*/
+
+#copywright{
+    text-align: center;
+}
+.footer_last{
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+
+@media (max-width: 575.98px) {
+    .hilton_navbar {
+        margin-left: 5px;
+    }
+    .custom_list {
+        margin-left:0;
+        text-align: center;
+    }
+    .hilton_link {
+        margin-left: 0px;
+    }
+    .active_link::after {
+        background-color: white;
+    }
+    .postar_img {
+        padding: 10px 0px 0px;
+    }
+    .postar_img img {
+        width: 100%;
+    }
+    .porfile_all {
+        padding: 25px 5px 0px;
+    }
+    .porfile_text{
+        padding-bottom: 25px;
+    }
+    .porfile_text h1 {
+        font-size: 35px;
+        margin-bottom: 35px;      
+    }
+    .porfile_text p {
+        font-size: 22px;
+    }
+    .btn-primary {
+        color: #0e0d0d;
+        background-color: #ffb700;
+        border-color: #111212;
+        position: absolute;
+        top: 373px;
+        left: 63%;
+        font-weight: 700;
+        padding: 14px;
+    }
+    .heading_work {
+        text-align: center;
+        padding: 25px 0px 0px;
+    }
+    .heading_work p {
+        font-size: 12px;
+    }
+    .navigation_monica {
+        text-decoration: none;
+        padding: 5px 0px 0px;
+        text-align: center;
+    }
+    .navigation_monica a {
+        text-align: center;
+    }
+    .name_text {
+        text-align: center;
+    }
+    .detalis_text p {
+        text-align: center;
+    }
+ }
+
+
+@media (max-width: 767.98px) {  }
+
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {  }
+
+
+@media (max-width: 1399.98px) {  }
+
+
+@media (min-width: 576px) { }
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
+
+
+@media (min-width: 1400px) {  }
